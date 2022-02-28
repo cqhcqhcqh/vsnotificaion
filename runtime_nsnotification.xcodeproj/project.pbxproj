@@ -14,6 +14,10 @@
 		633B282927CCD112009B58AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 633B282827CCD112009B58AC /* Assets.xcassets */; };
 		633B282C27CCD112009B58AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 633B282A27CCD112009B58AC /* LaunchScreen.storyboard */; };
 		633B282F27CCD112009B58AC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 633B282E27CCD112009B58AC /* main.m */; };
+		633B283727CCD127009B58AC /* VSNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = 633B283627CCD127009B58AC /* VSNotification.m */; };
+		633B283A27CCD153009B58AC /* VSNotificationCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 633B283927CCD153009B58AC /* VSNotificationCenter.m */; };
+		633B283D27CCD1BF009B58AC /* VSNotificationObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = 633B283C27CCD1BF009B58AC /* VSNotificationObserver.m */; };
+		633B284027CCD1CE009B58AC /* VSObjectToObservers.m in Sources */ = {isa = PBXBuildFile; fileRef = 633B283F27CCD1CE009B58AC /* VSObjectToObservers.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +33,14 @@
 		633B282B27CCD112009B58AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		633B282D27CCD112009B58AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		633B282E27CCD112009B58AC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		633B283527CCD127009B58AC /* VSNotification.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VSNotification.h; sourceTree = "<group>"; };
+		633B283627CCD127009B58AC /* VSNotification.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VSNotification.m; sourceTree = "<group>"; };
+		633B283827CCD153009B58AC /* VSNotificationCenter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VSNotificationCenter.h; sourceTree = "<group>"; };
+		633B283927CCD153009B58AC /* VSNotificationCenter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VSNotificationCenter.m; sourceTree = "<group>"; };
+		633B283B27CCD1BF009B58AC /* VSNotificationObserver.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VSNotificationObserver.h; sourceTree = "<group>"; };
+		633B283C27CCD1BF009B58AC /* VSNotificationObserver.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VSNotificationObserver.m; sourceTree = "<group>"; };
+		633B283E27CCD1CE009B58AC /* VSObjectToObservers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VSObjectToObservers.h; sourceTree = "<group>"; };
+		633B283F27CCD1CE009B58AC /* VSObjectToObservers.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VSObjectToObservers.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +79,14 @@
 				633B282027CCD110009B58AC /* SceneDelegate.m */,
 				633B282227CCD110009B58AC /* ViewController.h */,
 				633B282327CCD110009B58AC /* ViewController.m */,
+				633B283527CCD127009B58AC /* VSNotification.h */,
+				633B283627CCD127009B58AC /* VSNotification.m */,
+				633B283827CCD153009B58AC /* VSNotificationCenter.h */,
+				633B283927CCD153009B58AC /* VSNotificationCenter.m */,
+				633B283B27CCD1BF009B58AC /* VSNotificationObserver.h */,
+				633B283C27CCD1BF009B58AC /* VSNotificationObserver.m */,
+				633B283E27CCD1CE009B58AC /* VSObjectToObservers.h */,
+				633B283F27CCD1CE009B58AC /* VSObjectToObservers.m */,
 				633B282527CCD110009B58AC /* Main.storyboard */,
 				633B282827CCD112009B58AC /* Assets.xcassets */,
 				633B282A27CCD112009B58AC /* LaunchScreen.storyboard */,
@@ -146,9 +166,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				633B283727CCD127009B58AC /* VSNotification.m in Sources */,
 				633B282427CCD110009B58AC /* ViewController.m in Sources */,
+				633B283A27CCD153009B58AC /* VSNotificationCenter.m in Sources */,
 				633B281E27CCD110009B58AC /* AppDelegate.m in Sources */,
+				633B283D27CCD1BF009B58AC /* VSNotificationObserver.m in Sources */,
 				633B282F27CCD112009B58AC /* main.m in Sources */,
+				633B284027CCD1CE009B58AC /* VSObjectToObservers.m in Sources */,
 				633B282127CCD110009B58AC /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
